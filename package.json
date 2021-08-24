@@ -1,0 +1,25 @@
+{
+  "name": "secretify",
+  "version": "0.1.1",
+  "description": "Encrypt/Decrypt String/Array/Object with AES.",
+  "main": "src/secretify.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/main.mjs"
+  },
+  "keywords": [
+    "secretify",
+    "secret",
+    "object",
+    "array",
+    "string",
+    "encrypt",
+    "decrypt",
+    "password"
+  ],
+  "author": "EisenYang",
+  "license": "MIT",
+  "devDependencies": {
+    "secretify": "^0.1.0"
+  }
+}

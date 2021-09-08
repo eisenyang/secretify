@@ -1,4 +1,5 @@
-import Secretify from "secretify";
+const Secretify = require("../src/secretify.cjs");
+
 const plainObject = {
     bankAccount: 1122334455667788,
     bankPassword: '12345678'
@@ -10,5 +11,3 @@ console.log(secret);
 
 const decryptObjet = Secretify.unseal(secret, password, Object.keys(plainObject));
 console.log(decryptObjet);
-
-

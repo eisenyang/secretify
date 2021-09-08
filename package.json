@@ -1,11 +1,10 @@
 {
   "name": "secretify",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Encrypt/Decrypt String/Array/Object with AES.",
-  "main": "src/secretify.mjs",
+  "main": "src/secretify.cjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node src/main.mjs"
+    "test": "node test/test.cjs"
   },
   "keywords": [
     "secretify",
@@ -17,9 +16,10 @@
     "decrypt",
     "password"
   ],
-  "author": "EisenYang",
+  "author": "eisen.yang@gmail.com",
   "license": "MIT",
   "devDependencies": {
     "secretify": "^0.1.0"
-  }
+  },
+  "repository": "https://github.com/eisenyang/secretify"
 }

@@ -1,6 +1,6 @@
-import crypto from "crypto";
+const crypto = require('crypto');
 
-export default class Secretify {
+module.exports = class Secretify {
     static ALGORITHM = "aes256";
     static IV_LEN = 16;
     static PASSWORD_LEN = 32;

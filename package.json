@@ -1,6 +1,6 @@
 {
   "name": "secretify",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Encrypt/Decrypt String/Array/Object with AES.",
   "main": "src/secretify.cjs",
   "scripts": {
@@ -18,8 +18,5 @@
   ],
   "author": "eisen.yang@gmail.com",
   "license": "MIT",
-  "devDependencies": {
-    "secretify": "^0.1.0"
-  },
   "repository": "https://github.com/eisenyang/secretify"
 }
